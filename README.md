@@ -1,6 +1,6 @@
 #Pagina Personal 
 
-![img](images/screen.png) 
+![img](images/screen.PNG) 
 
 Una pagina web que habla un poco sobre mi experiencia como Desarrollador así como mis principales hobbies 
 

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Pagina Web Personal</title>
+        <link rel="icon" type="image/jpg" href="images/logo-icon.JPG" />
+        <link href="https://fonts.googleapis.com/css?family=Bangers|Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="css/media.css" media="screen and (max-width:768px)" /> -->
+        <link rel="stylesheet" href="css/estilos.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    </head>
+    <body>
+        <i class="icon-menu burger-button" id="burger-menu"></i>
+        <header class="header">
+            <div class="container">
+                <figure class="logo">
+                   <img src="images/logo2.png" height="50" alt="Logo de http://DanielCastillo.com" />
+                </figure>
+                <nav class="menu">
+                 <ol>
+                   <li>
+                     <a class="link" href="#portafolio">Portafolio</a>
+                   </li>
+                   <li>
+                     <a class="link" href="#eventos">Experiencia</a>
+                   </li>
+                   <li>
+                    <a class="link" href="#hobbies">Hobbies</a>
+                  </li>
+                   <li>
+                     <a class="link" href="#contacto">Contacto</a>
+                   </li>
+                 </ol>
+                </nav>  
+            </div>
+        </header>
+        <section class="hero"> 
+            <div class="container">
+                <h1>
+                    Hola! Soy <strong>Daniel Castillo</strong> <br> Ingeniero <strong>Informatico</strong> con <br> pasión por el <strong>aprendizaje</strong>
+                </h1>
+                <img class="hero-image" src="images/hero2.jpg" width="500" height="300" alt="Imagen principal del sitio"/> 
+            </div>
+        </section>
+        <section id="portafolio" class="portfolio">
+            <div class="container">
+                <h2>Portafolio (Proyectos Destacados)</h2>
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title">Simon Dice</h3>
+                    <h6 class="project-course">JavaScript</h6>
+                    <p class="project-date"><small><strong>Fecha: </strong> 08/02/2020</small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en: </strong> <a href="https://github.com/AlbertoDaniel-Castillo" target="_blank">www.GitHub/AlbertoDaniel-Castillo</a></small></p>
+                    <p class="project-url"><small><strong>Puedes jugarlo aqui: </strong> <a href="https://albertodaniel-castillo.github.io/Simon-dice/" target="_blank">https://albertodaniel-castillo.github.io/Simon-dice/</a></small></p>
+                    <p class="project-description">Un juego de simon dice en el que debes seguir el patron de colores y luego seleccionar los correctos
+                        para subir de nivel hasta llegar al ultimo, si pierdes a intentar de nuevo. Programado en javascript gracias a el curso de platzi.
+                    </p>
+                    </div>
+                <figure class="project-imageContainer">
+                    <img class="project-image" src="images/simon.jpg" alt="proyecto de simon dice"  height="400" />
+                </figure>
+                </article>
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title">CUCEI Maps</h3>
+                    <h6 class="project-course">Kotlin</h6>
+                    <p class="project-date"><small><strong>Fecha: </strong> 04/06/2018</small></p>
+                    <!-- <p class="project-url"><small><strong>Puedes verlo en: </strong> <a href="https://github.com/AlbertoDaniel-Castillo">www.GitHub/AlbertoDaniel-Castillo</a> </small></p> -->
+                    <p class="project-description">Un proyecto que hice durante mi septimo semestre en Cucei. Un mapa de la escuela utilizando Google Maps que mostraba los distintos modulos
+                        de todo el centro universitario y como llegar a ellos desde tu punto de ubicacion. Con iconos que identificaban si era salon, laboratorio, biblioteca, etc. </p>
+                    </div>
+                <figure class="project-imageContainer">
+                    <img class="project-image cucei-maps" src="images/cuceimaps2.jpg" alt="proyecto del curso de react"  height="400"/>
+                </figure>
+                </article>
+            </div>
+        </section>
+        
+        <div class="container"> 
+            <h2 class="event-list-title">Mas sobre mi experiencia</h2>
+        </div> 
+       <section id="eventos" class="event-list"> 
+            <div class="container">
+                <article class="event">
+                    <figure class="event-imageCointainer">
+                        <img class="event-image" src="images/talent.jpg" width="500" height="300"/>
+                    </figure> 
+                    <div class="event-detail">
+                        <h3 class="event-title">Talent Land</h3>
+                        <p class="event-description">Año tras año visito el evento mas grande de tecnología hecho en Guadalajara donde se hacen conferencias, juegos,hackatones,trabajos. 
+                            Todo relacionado al mundo de la tecnologia. Definitivamente es una experiencia grandiosa cada vez que asisto. </p>
+                        <a class="event-url" href="https://www.talent-land.mx/" target="_blank">Ver Evento</a>
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event-imageCointainer">
+                        <img class="event-image" src="images/platzi2.png" width="500" height="300"/>
+                    </figure> 
+                    <div class="event-detail">
+                        <h3 class="event-title">Platzi</h3>
+                        <p class="event-description">Una pagina educadora, llena de cursos muy interesantes con una grandiosa comunidad del cual soy parte, gracias a esta pagina he 
+                            aprendido a utilizar nuevas tecnologías, aprender nuevos lenguajes de programación y por supuesto a crear esta pagina. </p>
+                        <a class="event-url" href="https://platzi.com/" target="_blank">Ver Pagina</a>
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event-imageCointainer">
+                        <video class="html-video" src="videos/Data Warehouse.mp4" width="1280" height="720" controls></video>
+                        <!-- <img class="event-image" src="images/platzi-conf.jpg" width="500" height="300"/> -->
+                    </figure> 
+                    <div class="event-detail">
+                        <h3 class="event-title">Guias</h3>
+                        <p class="event-description">Pequeños videos que realice en mi escuela en el que se habla de distintos temas relacionados al desarrollo, la mayoria de ellos son de herramientas de gestion
+                            de proyectos en el cual explicamos mi compañero y yo una forma sencilla de como utilizarlas e irse acostumbrando a cada una de ellas.  </p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=oGaoemuTllg&list=PLT0CV5Z9ZFaNDNcxKdyFn0Pb051RFBbR2" target="_blank">Ver mas videos</a>
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event-imageCointainer">
+                        <img class="event-image" src="images/cucei.jpg" width="500" height="300"/>
+                    </figure> 
+                    <div class="event-detail">
+                        <h3 class="event-title">CUCEI</h3>
+                        <p class="event-description">Escuela universitaria de Guadalajara donde estoy formandome como Ingeniero Informatico, a traves de estos años he ido realizando distintas actividades, aprendiendo 
+                            sobre nuevas materias cada semestre, conociendo personas con mis mismos gustos en la tecnología, e ido haciendo amistades, etc. Un lugar del cual estaré orgulloso una vez que haya terminado. </p>
+                        <a class="event-url" href="http://www.cucei.udg.mx/" target="_blank">Ver Escuela</a>
+                    </div>
+                    </div>
+                </article>
+            </div>
+        </section> 
+         
+        <div class="container"> 
+            <h2 class="event-list-title">Hobbies</h2>
+        </div> 
+       <section id="hobbies" class="event-list"> 
+            <div class="container">
+                <article class="event">
+                    <figure class="event-imageCointainer">
+                        <img class="event-image" src="images/controles.jpg" width="500" height="300"/>
+                    </figure> 
+                    <div class="event-detail">
+                        <h3 class="event-title">Videojuegos</h3>
+                        <p class="event-description">Un gran gusto desde pequeño con los videojuegos, de mis pasatiempos favoritos para jugar en tiempos libres, ya sea con amigos 
+                            o en solitario.La musica, las historias, el arte, la manera de jugar, cada uno de ellos puede ser una gran experiencia para cada jugador.</p>
+                        <a class="event-url" href="https://psnprofiles.com/Uri_Dan" target="_blank">ID PS4</a>
+                        <a class="event-url" href="https://www.xboxgamertag.com/search/danaftr" target="_blank">ID Xbox</a>
+                        <a class="event-url" href="https://steamcommunity.com/profiles/76561198309637018" target="_blank">ID Steam</a>
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event-imageCointainer">
+                        <img class="event-image" src="images/stream2.jpg" width="500" height="300"/>
+                    </figure> 
+                    <div class="event-detail">
+                        <h3 class="event-title">Series</h3>
+                        <p class="event-description">¿A quien no le gusta ver series? A la gran mayoría de las personas les fascina, y yo estoy dentro de esa gran mayoría. 
+                            Siempre es buen momento para sentarse y disfrutar de alguna de ellas. </p>
+                        <a class="event-url" href="https://www.netflix.com/mx/" target="_blank">Netflix</a>
+                        <a class="event-url" href="https://www.primevideo.com/" target="_blank">Amazon Video</a>
+                        <a class="event-url" href="https://www.crunchyroll.com/es" target="_blank">Crunchyroll</a>
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event-imageCointainer">
+                        <img class="event-image" src="images/musica2.jpeg" width="500" height="300"/>
+                    </figure> 
+                    <div class="event-detail">
+                        <h3 class="event-title">Musica</h3>
+                        <p class="event-description">Casi nunca paro de escuchar musica, en todos mis translados, en mi casa, cuando estudio,  en el trabajo, donde sea que esté, si tengo la oportunidad
+                            me gusta estar con mis audifonos. Esa es la razón por la cual a está pagina quise agregarle una pista de audio, espero les guste.
+                        </p>
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event-imageCointainer">
+                        <div class="flexible-video">
+                            <!-- <iframe src="https://elbreakcultural.com" width="500" height="500" frameborder="0"></iframe> -->
+                            <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/N5Ja3pFywjo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                        </div>
+                        <!-- <img class="event-image" src="images/platzi-conf.jpg" width="500" height="300"/> -->
+                    </figure> 
+                    <div class="event-detail">
+                        <h3 class="event-title">Dan Castle</h3>
+                        <p class="event-description">Un muy pequeño canal de Youtube en el que subo gameplays sobre juegos que me gustan mucho. Espero en un futuro subir mucho mas contenido 
+                            y que la gente me empiece a conocer. </p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=N5Ja3pFywjo&feature=emb_title" target="_blank">Ver Video</a>
+                        <a class="event-url" href="https://www.youtube.com/channel/UCZwYhdrj6AlOXmJWG48Ldnw" target="_blank">Ver Canal</a>
+                    </div>
+                </article>
+        </section>
+        <section id="contacto" class="contact">
+            <div class="container">
+                <div class="form-email">
+                    <h3>¿Creamos algo juntos?</h3>
+                    <ul>
+                        <i class="icon-correo">
+                            <span>daniel.casmendoza@gmail.com</span>
+                        </i>   
+                    </ul>
+                </div>
+                <div class="social">
+                    <a href="https://twitter.com/Alberto38546530" target="_blank"><i class="social-link icon-twitter"></i></a>
+                    <a href="https://www.facebook.com/albertodaniel.castillomendoza" target="_blank"><i class="social-link icon-facebook"></i></a>
+                    <a href="https://github.com/AlbertoDaniel-Castillo" target="_blank"><i class="social-link icon-github"></i></a>
+                    <a href="https://www.instagram.com/dan_castillo97/" target="_blank"><i class="social-link icon-instagram"></i></a>
+                    <!-- <a href="https://www.instagram.com/dan_castillo97/" target="_blank" class="icon-instagram"></a> -->
+                </div>
+            </div>
+        </section> 
+        <footer class="footer"> 
+            <div class="container">
+                <div>
+                    <p>Curso de Desarrollo Web 2018 <img src="images/platzi.png" alt="platzi" width="80"></p>
+                </div>
+                <div>
+                    <p>
+                        Designed with ❤ by <a href="https://twitter.com/thespianartist">@thespianartist</a>
+                    </p>
+                </div>
+            </div>
+        </footer>  
+        <div class="sound" id='sound_button' onClick="playpause()" ><img title='Music Playing' alt='Play The Music' src='https://cdn3.iconfinder.com/data/icons/eightyshades/512/29_Sound_alt-24.png' /></div>
+    <script src="js/menu.js"></script> 
+    <script type="text/javascript">
+        function playpause() { var snd = document.getElementById("sound"); var snd_btn = document.getElementById("sound_button"); snd.muted = !snd.muted; 
+        if(snd.muted){ snd_btn.innerHTML = "<img alt='Pause The Music' title='Music Paused' src='https://cdn3.iconfinder.com/data/icons/eightyshades/512/30_Sound_off-24.png' />"; } 
+        else{ snd_btn.innerHTML = "<img alt='Play The Music' title='Music Palying' src='https://cdn3.iconfinder.com/data/icons/eightyshades/512/29_Sound_alt-24.png' />"; } }
+        </script>
+        <audio autoplay="true" loop="true" width="0" height="0" id="sound" src="music/background.mp3" type="audio/mp3" ></audio> 
+    </body>
+</html>

@@ -591,6 +591,12 @@ figure {
         margin: -2em .5em .5em;
         padding: 1em;
     }
+    .contact{
+        height: auto;
+        padding: 1em 0;
+        text-align: center;
+        display: block;
+    }
 }
 
 @media screen and (max-width: 480px) {
